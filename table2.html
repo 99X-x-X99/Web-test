@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="table-container">
+        <table class="parent-table">
+            <caption>ДРУГА ТАБЛИЦЯ, БАТЬКІВСЬКА</caption>
+            <thead>
+                <tr>
+                    <td class="cell parent-col-1 parent-cell-12" colspan="2">1-2</td>
+                    <td class="cell parent-col-2">3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cell parent-col-1">4</td>
+                    <td class="cell parent-col-2" colspan="2" rowspan="2">
+                        
+                        <table class="child-table">
+                            <caption>Друга таблиця, ДОЧІРНЯ</caption>
+                            
+                            <tr>
+                                <td class="child-cell">1</td>
+                                <td class="child-cell"  rowspan="4">2-5-8</td>
+                                <td class="child-cell child-cell-3-6" rowspan="2">3-6</td> </tr>
+                                
+                            
+                            <tr>
+                                <td class="child-cell child-cell-4-7" rowspan="3">4-7</td> <td class="child-cell"></td> </tr>
+
+                                <td class="child-cell">9</td></tr>
+                        </table>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cell parent-col-1">7</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

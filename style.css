@@ -1,0 +1,92 @@
+.main-table {
+    width: 75%;
+    border-collapse: collapse; 
+    border: 2px solid black;
+    margin: 0 auto; 
+}
+
+.cell {
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px; 
+    width: 33.33%; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.cell-5-6 {
+    height: 200px;
+}
+
+.no-bottom-border {
+    border-bottom: none;
+}
+
+.parent-table {
+    width: 100%; 
+    border: 2px solid black;
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    font-size: 14px;
+}
+
+.parent-table caption {
+    font-weight: bold;
+    caption-side: top;
+    padding: 5px 0;
+}
+
+.parent-table .cell {
+    width: auto;
+    height: 50px; 
+    vertical-align: top; 
+    padding: 0; 
+    border: 1px solid black;
+}
+
+.parent-col-1 {
+    width: 28%;
+}
+
+.parent-table td:nth-child(2) {
+    width: 72%; 
+}
+
+.child-table {
+    width: 80%; 
+    border-collapse: collapse; 
+    border: 1px solid black; 
+    margin: 10px auto; 
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+.child-table caption {
+    text-align: center;
+    font-weight: bold;
+    caption-side: top;
+    padding-bottom: 5px;
+}
+
+.child-cell {
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px; 
+    width: 33.33%; 
+    box-sizing: border-box; 
+    font-weight: bold;
+}
+
+.child-cell-4-7 {
+    height: 200px;
+}
+
+.child-cell-3-6{
+     height: 200px;
+}
